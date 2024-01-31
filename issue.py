@@ -40,32 +40,3 @@ class MyArray:
             self.resize(2 * self.capacity)
         self.data[self.length] = value
         self.length += 1
-
-# Example usage:
-my_array = MyArray(5)
-print("Initial array:")
-print("Size:", my_array.size())
-print("Is empty:", my_array.is_empty())
-
-my_array.append(1)
-my_array.append(2)
-my_array.append(3)
-my_array.append(4)
-my_array.append(5)
-
-print("\nArray after adding elements:")
-print("Size:", my_array.size())
-print("Is empty:", my_array.is_empty())
-
-print("Element at index 2:", my_array.get(2))
-print("Last element:", my_array.peek())
-
-my_array.set(2, 10)
-print("Updated element at index 2:", my_array.get(2))
-
-# Resize test
-my_array.append(6)
-print("\nArray after resizing:")
-print("Size:", my_array.size())
-print("Is empty:", my_array.is_empty())
-print("New capacity:", my_array.capacity)
