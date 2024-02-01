@@ -77,7 +77,7 @@ print("Is hash table empty?", hash_table.is_empty())
 
 #Retrieves the value associated with a given key.
 print("Value for key 'banana':", hash_table.get("banana"))
-print("Value for key 'orange':" , hash_table.get("orange"))
+print("Value for key 'orange':", hash_table.get("orange"))
 
 #Removes the key-value pair associated with the given key.
 hash_table.remove("apple")
