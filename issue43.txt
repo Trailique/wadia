@@ -1,0 +1,19 @@
+<meta> tag:
+
+
+The <meta> tag in HTML is used to provide metadata about the HTML document.
+ Metadata is information about the HTML document itself, rather than the content within it. 
+ This information can include things like character encoding, viewport settings for responsive design, authorship details, keywords for search engines, and more.
+
+ <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+charset: Specifies the character encoding for the HTML document.
+
+name and content: Used together to specify various types of metadata. The name attribute defines the type of metadata, while the content 
+
+attribute provides the actual value.
+
+viewport: Specifies the viewport settings for responsive web design, controlling how the webpage is displayed on different devices.
+
