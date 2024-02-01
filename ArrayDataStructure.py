@@ -41,43 +41,27 @@ class MyArray:
         self.data[self.length] = value
         self.length += 1
 
-    def pop(self):
-        if self.length == 0:
-            raise IndexError("Array is empty")
-        popped_value = self.data[self.length - 1]
-        self.length -= 1
-        if self.length <= self.capacity // 4:
-            self.resize(self.capacity // 2)
-        return popped_value
 
-# Example Usage:
+my_array = MyArray(10)
+print("Firstly,is the array empty?", my_array.is_empty())
 
-# Initialize with capacity 5
-my_array = MyArray(5)
+#Appending array elements
+my_array.append(11)
+my_array.append(12)
+my_array.append(13)
+my_array.append(14)
+my_array.append(15)
+my_array.append(16)
 
-# Append elements
-my_array.append(1)
-my_array.append(2)
-my_array.append(3)
+#Printing the size and the elements present in the array
+print("Array Elements:", [my_array.get(i) for i in range(my_array.size())])
+print("Array size:", my_array.size())
 
-# Print size and elements
-print("Size:", my_array.size())
-print("Elements:", [my_array.get(i) for i in range(my_array.size())])
+#Set element 8 at index 1
+my_array.set(1, 8)
+print("Array after setting at index 1:", [my_array.get(i) for i in range(my_array.size())])
 
-# Set element at index 1 to 10
-my_array.set(1, 10)
-
-# Print size and elements
-print("Size:", my_array.size())
-print("Elements:", [my_array.get(i) for i in range(my_array.size())])
-
-# Print last element (peek)
-print("Last Element:", my_array.peek())
-
-# Pop an element
-popped_value = my_array.pop()
-print("Popped Element:", popped_value)
-
-# Print size and elements after popping
-print("Size:", my_array.size())
-print("Elements:", [my_array.get(i) for i in range(my_array.size())])
+#Returning the peek element
+last_element = my_array.peek()
+print("Peek at the last element:", last_element)
+print("Now,is the array empty?", my_array.is_empty())
