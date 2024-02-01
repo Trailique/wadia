@@ -21,7 +21,7 @@ class MyStack:
     def is_empty(self):
         return len(self.stack) == 0
 
-# Example usage:
+
 stack = MyStack()
 stack.push(1)
 stack.push(2)
