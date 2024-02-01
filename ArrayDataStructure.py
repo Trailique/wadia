@@ -53,7 +53,7 @@ my_array.append(14)
 my_array.append(15)
 my_array.append(16)
 
-#Printing the size of the array and the elements present
+#Printing the size and the elements present in the array
 print("Array Elements:", [my_array.get(i) for i in range(my_array.size())])
 print("Array size:", my_array.size())
 
