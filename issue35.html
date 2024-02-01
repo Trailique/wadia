@@ -1,0 +1,44 @@
+<!--Forms-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Form</title>
+  </head>
+  <body>
+    <h1>Contact Us</h1>
+
+    <form action="/submit" method="post">
+      <label for="name">Name:</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Your Name"
+        required
+      />
+
+      <br />
+
+      <label>Preferred Contact Method:</label>
+      <div>
+        <input
+          type="radio"
+          id="email"
+          name="contactMethod"
+          value="email"
+          checked
+        />
+        <label for="email">Email</label>
+
+        <input type="radio" id="phone" name="contactMethod" value="phone" />
+        <label for="phone">Phone</label>
+      </div>
+
+      <br />
+
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
