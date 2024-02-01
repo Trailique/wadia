@@ -1,0 +1,10 @@
+difference between semantic and non-semantic HTML elements.
+1.Semantic HTML Elements:
+Semantic HTML elements are those that clearly describe their meaning and purpose. These elements are specifically designed to represent the structure of a document. Examples of semantic HTML elements include <header>, <nav>, <section>, <article>, <footer>, <aside>, <main>, <figure>, <figcaption>, <details>, <summary>, <blockquote>, <cite>, <time>, <address>, etc.
+
+Semantic elements provide valuable information about the content they enclose, making it easier for search engines, screen readers, and other devices to interpret and understand the document structure. They also make the HTML code more readable and maintainable.
+
+2.Non-semantic HTML Elements:
+Non-semantic HTML elements, on the other hand, are generic elements that do not inherently convey any meaning about their content. Examples include <div>, <span>, <b>, <i>, <font>, <center>, etc.
+
+While non-semantic elements are useful for applying styles and organizing content visually, they do not provide any semantic meaning to the document structure. Overuse of non-semantic elements can result in HTML code that is difficult to understand and maintain, especially in larger projects.
