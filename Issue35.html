@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Form</title>
+</head>
+<body>
+
+    <h2>Contact Us</h2>
+
+    <form action="/submit" method="post">
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+        <br>
+
+
+        <label>Gender:</label>
+        <label for="male">
+            <input type="radio" id="male" name="gender" value="male" required> Male
+        </label>
+        <label for="female">
+            <input type="radio" id="female" name="gender" value="female" required> Female
+        </label>
+
+        <br>
+
+
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
