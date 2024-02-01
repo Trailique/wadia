@@ -29,6 +29,7 @@ queue.enqueue(20)
 queue.enqueue(30)
 queue.enqueue(40)
 
+#Prints the current number of items in th queue 
 print("Queue size:", queue.size())
 print("Is queue empty?", queue.is_empty())
 
@@ -40,6 +41,6 @@ print("Front item:", front_item)
 dequeued_item = queue.dequeue()
 print("Dequeued item:", dequeued_item)
 
-#Returning the current number of items in the queue
+#Returning the current number of items in the queue after dequeuing
 print("Queue size after dequeue:", queue.size())
 print("Is queue empty after dequeue?", queue.is_empty())
