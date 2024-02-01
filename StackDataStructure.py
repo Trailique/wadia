@@ -38,7 +38,7 @@ print("Is stack empty?", stack.is_empty())
 #Returning the element from the top of the stack
 print("Peek at the top element:", stack.peek())
 
-for i in range(7):
+for i in range(5):
     popped_item = stack.pop()
     print("Popped item:", popped_item)
 
