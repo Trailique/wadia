@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absolute and Relative Positioning Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            position: relative;
+            width: 500px;
+            height: 300px;
+            border: 2px solid #000;
+            margin: 50px auto;
+        }
+
+        .relative {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+        }
+
+        .absolute {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 100px;
+            height: 100px;
+            background-color: #ffcc00;
+            border: 1px solid #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="relative">
+            Relative Positioning
+            <div class="absolute">
+                Absolute Positioning
+            </div>
+        </div>
+    </div>
+</body>
+</html>
