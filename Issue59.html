@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            font-size: 16px; /* Default font size */
+        }
+
+        /* Flexible Grid Layout with Flexbox */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .box {
+            width: 45%;
+            margin: 10px;
+            background-color: #3498db;
+            color: white;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        /* Media query for screens smaller than 600px */
+        @media (max-width: 600px) {
+            body {
+                font-size: 14px;
+            }
+        }
+
+        /* Media query for screens between 601px and 900px */
+        @media (min-width: 601px) and (max-width: 900px) {
+            body {
+                font-size: 18px;
+            }
+        }
+
+        /* Media query for screens larger than 900px */
+        @media (min-width: 901px) {
+            body {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Responsive Design Example</h2>
+
+    <!-- Flexible layout with Flexbox -->
+    <div class="container">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+    </div>
+
+</body>
+</html>
