@@ -1,0 +1,42 @@
+Any three features introduced in HTML5 are:
+
+1.Introduction of audio and video: 
+   Audio and Video tags are the two major addition to HTML5. It allows developers to embed a video or audio on their website. HTML5 video can use CSS and CSS3 to style the video tag. You can change the border, opacity, reflections, gradients, transitions, transformations, and even animations. HTML5 makes adding video super-fast and without having to build a video player. This saves time for the developer and offers the client a more affordable solution.
+
+Example Code:
+<!DOCTYPE html> 
+<html> 
+<body> 
+<h2>Example of video and audio tag</h2> 
+	
+<video width = "300" height = "200" controls autoplay> 
+       <source src = "" type ="video/ogg" /> 
+       <source src = "" type = "video/ogg" /> 
+         Your browser does not support the video element. 
+</video> 
+	
+<audio controls autoplay> 
+       <source src = "" type = "audio/ogg" /> 
+       <source src = "" type = "audio/wav" /> 
+         Your browser does not support the audio element. 
+</audio> 
+</body> 
+</html> 
+
+2. Introduction of vector graphics:
+     This is a new addition to the revised version which has hugely impacted the use of Adobe Flash in websites. It can be used to draw graphics with various shapes and colors via scripting usually JS. Vector graphics are scalable, easy to create and edit. It also supports interactivity and animation. Having a smaller file size makes transferring and loading graphics much faster on the web.
+
+Example Code:
+<svg id = "svgelem" height = "200" xmlns = "http://www.abc.org/2000/svg"> 
+               <circle id = "redcircle" cx = "50" cy = "50" r = "50" fill = "red" /> 
+</svg> 
+
+3.Introduction of Figure and Figcaption:
+   HTML5 allows to use a <figure> element to mark up a photo in a document, and a <figcaption> element to define a caption for the photo. The <figcaption> tag defines a caption for a <figure> element. This tag provides a container for content that is equivalent to a figure. It can be used to group a caption with one or more images, a block of code, or other content.
+
+Example Code:
+<figure> 
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9WlO_9pvpcyj5ituxt_4xbKJqOQQaRT8QoPy0uZ0oPg&s.jpg" alt="A cat playing" style="width:50%"> 
+<figcaption>Fig.1 - Cat Image</figcaption> 
+</figure> 
+
