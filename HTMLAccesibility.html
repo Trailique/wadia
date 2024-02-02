@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .highlight {
+            background-color: yellow;
+            text-decoration:underline;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div style="border: 2px solid black; text-align: center; border-radius: 10px; color:lightseagreen;padding:10px; margin-bottom: 10px;">
+        <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; text-decoration:underline;">Making HTML content more accessible is crucial for ensuring that people with disabilities can access and understand the information on a webpage. Here are three ways to enhance the accessibility of your HTML content:</p>
+    </div>
+    <div style="border: 2px solid black; border-radius: 10px;padding:15px; margin-top: 15px;">
+        <h3 style="font-size:larger; font-style: italic; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Semantic HTML:</h3>
+        <p style="font-family: 'Courier New', Courier, monospace;">Use semantic HTML elements to convey the structure and meaning of your content. Semantic elements like &lt;header&gt;,&lt;nav&gt;,&lt;meta charset="UTF-8"&gt;,&lt;article&gt;, &lt;section&gt;, &lt;aside&gt;, and &lt;footer&gt; help screen readers and other assistive technologies understand the organization of your content. This improves navigation for users with disabilities.</p>
+        <pre>
+            <code>
+                &lt;header&gt; 
+                    &lt;h1&gt;Website Title&lt;/h1&gt;
+                    &lt;nav&gt;
+                        &lt;ul&gt;
+                            &lt;li&gt;&lt;a href="#home"&gt;Home&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href="#about"&gt;About&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href="#contact"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/nav&gt;
+                &lt;/header&gt;
+                
+                &lt;main&gt;
+                    &lt;article&gt;
+                        &lt;h2&gt;About Us&lt;/h2&gt;
+                        &lt;p&gt;...&lt;/p&gt;
+                    &lt;/article&gt;
+                
+                    &lt;section&gt;
+                        &lt;h2&gt;Contact Information&lt;/h2&gt;
+                        &lt;p&gt;...&lt;/p&gt;
+                    &lt;/section&gt;
+                &lt;/main&gt;
+                
+                &lt;footer&gt;
+                    &lt;p&gt;&amp;copy; 2024 Website Name. All rights reserved.&lt;/p&gt;
+                &lt;/footer&gt;
+            </code>
+        </pre>
+    </div>
+    <div style="border: 2px solid black; border-radius: 10px;padding:15px; margin-top: 15px;">
+        <h3 style="font-size:larger; font-style: italic; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Provide Alternative Text for Images</h3>
+        <p style="font-family: 'Courier New', Courier, monospace;">Include descriptive alternative text (alt text) for images using the alt attribute. This helps users who are visually impaired and rely on screen readers to understand the content and context of images on your webpage</p>
+        <pre>
+            <code>
+                &lt;img src="example.jpg" alt="A person riding a bicycle through a scenic mountain trail"&gt;
+            </code>
+        </pre>
+    </div>
+    <div style="border: 2px solid black; border-radius: 10px;padding:15px; margin-top: 15px;">
+        <h3 style="font-size:larger; font-style: italic; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Properly Structure Forms:</h3>
+        <p style="font-family: 'Courier New', Courier, monospace;">
+            When creating forms, use proper HTML form elements and labels to make them accessible. Associate form controls with their labels using the for attribute or by wrapping the input element inside the &lt;label&gt; element. This improves navigation and understanding for users who rely on assistive technologies.
+        </p>
+        <pre>
+            <code>
+                &lt;form&gt;
+                    &lt;label for="username"&gt;Username:&lt;/label&gt;
+                    &lt;input type="text" id="username" name="username" required&gt;
+    
+                    &lt;label for="password"&gt;Password:&lt;/label&gt;
+                    &lt;input type="password" id="password" name="password" required&gt;
+    
+                    &lt;button type="submit"&gt;Login&lt;/button&gt;
+                &lt;/form&gt;
+            </code>
+        </pre>
+        <p class="highlight">
+            By implementing these practices, you contribute to creating a <span class="highlight">more inclusive and accessible web environment</span> for all users,
+            including those with disabilities.
+        </p>
+    </div>
+    &copy;Shubham Bhosale 2024
+</body>
+</html>
