@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables Example</title>
+    <style>
+        :root {
+            --primary-color: #3498db; /* Declare a CSS variable */
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+            background-color: var(--primary-color); /* Use the CSS variable */
+        }
+
+        h2 {
+            color: var(--primary-color); /* Use the CSS variable for text color */
+        }
+
+        p {
+            color: #333; /* Fallback color in case variables are not supported */
+        }
+    </style>
+</head>
+<body>
+
+    <h2>CSS Variables Example</h2>
+
+    <!-- HTML content with styles using CSS variables -->
+    <p>This is a paragraph with a primary color defined using a CSS variable.</p>
+
+</body>
+</html>
