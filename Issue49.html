@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positioning Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Relative Positioning */
+        .relativeContainer {
+            position: relative;
+            border: 2px solid #3498db;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        .relativeBox {
+            position: relative;
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px;
+        }
+
+        /* Absolute Positioning */
+        .absoluteContainer {
+            position: relative;
+            border: 2px solid #e74c3c;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        .absoluteBox {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #e74c3c;
+            color: #fff;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>CSS Positioning Example</h2>
+
+    <!-- Relative Positioning -->
+    <div class="relativeContainer">
+        <p>This is a relatively positioned container.</p>
+        <div class="relativeBox">Relative Box</div>
+    </div>
+
+    <!-- Absolute Positioning -->
+    <div class="absoluteContainer">
+        <p>This is a relatively positioned container with an absolutely positioned box.</p>
+        <div class="absoluteBox">Absolute Box</div>
+    </div>
+
+</body>
+</html>
