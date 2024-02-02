@@ -1,0 +1,34 @@
+ <!-- issue - 35 -->
+ <!-- forms -->
+<html >
+<head>
+
+    <title>Form</title>
+</head>
+<body>
+
+    <h1>Addmission Form</h1>
+
+    <form action="/submit" method="post">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <br>
+
+        <label>Preferred Course:</label>
+        <label for="MSC"><input type="radio" id="MSC" name="color" value="MSC"> MSC</label>
+        <label for="BSC"><input type="radio" id="BSC" name="color" value="BSC"> BSC</label>
+        <label for="B.ED"><input type="radio" id="B.ED" name="color" value="B.ED"> B.ED</label>
+
+        <br>
+
+        <label for="comments">Additional Comments on Course:</label>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+
+        <br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!-- html5 elements-->
+
+<html>
+<head>
+
+    <title>HTML5 Features</title>
+</head>
+<body>
+    <!-- Semantic Elements -->
+    <header>
+        <h1>Welcome to Wikipedia</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h2>About Us</h2>
+        <p>Wikipedia is a free online encyclopedia that anyone can edit, and millions already have.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 My Website</p>
+    </footer>
+
+    <!-- Audio and Video Elements -->
+    <h1>My Favorite Media</h1>
+    <!-- Audio Element -->
+    <audio controls>
+        <source src="my_favorite_song.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <!-- Video Element -->
+    <video controls width="400">
+        <source src="my_favorite_movie_clip.mp4" type="video/mp4">
+        Your browser does not support the video element.
+    </video>
+
+    <!-- Canvas Element -->
+    <h1>Drawing with Canvas</h1>
+    <!-- Canvas Element -->
+    <canvas id="myCanvas" width="200" height="100" style="border:1px solid black;"></canvas>
+    <script>
+        // JavaScript to draw on the canvas
+        var canvas = document.getElementById("myCanvas");
+        var context = canvas.getContext("2d");
+        context.fillStyle = "red";
+        context.fillRect(10, 10, 150, 80);
+    </script>
+</body>
+</html>

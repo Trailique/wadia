@@ -1,0 +1,4 @@
+The <meta> tag in HTML is used to provide metadata about the HTML document. 
+Metadata is information about the data within the document, and it is not displayed on the web page itself.
+Instead, it offers additional information to browsers, search engines, and other web services.
+<meta> tags are typically placed within the <head> section of an HTML document.
