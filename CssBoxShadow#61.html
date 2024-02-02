@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .box-with-shadow {
+            width: 200px;
+            height: 200px;
+            background-color: #3498db;
+            box-shadow: 10px 10px 20px rgba(52, 152, 219, 0.7); 
+            transition: box-shadow 0.3s ease;
+        }
+
+        .box-with-shadow:hover {
+            box-shadow: 5px 5px 10px rgba(52, 152, 219, 0.7); 
+        }
+    </style>
+    <title>Box Shadow Example</title>
+</head>
+<body>
+
+    <div class="box-with-shadow"></div>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        button{
+            background-color: rgb(8, 220, 68);
+        }
+    </style>
+</head>
+<body>
+
+    <form action="submit" method="post">
+        <label for="FirstName">First Name:</label>
+        <input type="text" id="FirstName" placeholder="Eg:-shruti">
+
+        <label for="LastName">Last Name:</label>
+        <input type="text" id="LastName" placeholder="Eg:-kamble">
+
+        <p>Gender</p>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender" value="other" required>
+        <label for="other">Other</label><br>
+        <br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+    
+</body>
+</html>
