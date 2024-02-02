@@ -1,0 +1,20 @@
+The <meta> tag in HTML is used to provide metadata about the HTML document. Metadata is information about the data within the document, and it doesn't directly affect the display of the document but provides additional information to browsers and other applications. Common uses of the <meta> tag include specifying the character set, setting the viewport for responsive design, and providing metadata for search engines.
+
+Here's an example of the <meta> tag with different purposes:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This is a sample HTML document with meta tags.">
+  <meta name="keywords" content="HTML, meta tags, example">
+  <meta name="author" content="Your Name">
+  <title>Sample HTML with Meta Tags</title>
+</head>
+<body>
+
+  <!-- Content of the HTML document goes here -->
+
+</body>
+</html>
