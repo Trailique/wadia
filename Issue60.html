@@ -1,0 +1,39 @@
+<!--CSS Transfrom-->
+<!--Issue-60 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+    
+      .image-container {
+        width: 300px;
+        margin: 50px auto;
+      }
+
+ 
+      .transformed-image {
+        width: 100%;
+        display: block;
+        transition: transform 0.3s ease-in-out;
+      }
+
+    
+      .image-container:hover .transformed-image {
+        transform: scale(1.2) rotate(45deg); 
+      }
+    </style>
+    <title>CSS Transforms Example</title>
+  </head>
+  <body>
+    
+    <div class="image-container">
+      <img
+        class="transformed-image"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbtqfqF8fj_2BiMbmBVupU4dGrJXtP3hPg2ezJ2LS8uZiw3R_Aj5w45AYkjg&s"
+        alt="Transformed Image"
+      />
+    </div>
+  </body>
+</html>
