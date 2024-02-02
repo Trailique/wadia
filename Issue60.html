@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transforms Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Styling for the image container */
+        .image-container {
+            display: inline-block;
+        }
+
+        /* CSS transforms for scaling and rotating the image */
+        .scaled-rotated-image {
+            width: 200px; 
+            transform: scale(1.5) rotate(45deg); 
+            transition: transform 0.5s ease; 
+        }
+    </style>
+</head>
+<body>
+
+    <h2>CSS Transforms Example</h2>
+
+    <div class="image-container">
+        <img class="scaled-rotated-image" src="https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg" alt="Scaled and Rotated Image">
+    </div>
+
+</body>
+</html>
