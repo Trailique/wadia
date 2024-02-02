@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variable Example</title>
+    <style>
+        :root {
+            --primary-color1: #007bff;
+            --primary-color2: #28a745;
+            --primary-color3: #dc3545;
+        }
+
+        .button {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .button.primary-color1 {
+            background-color: var(--primary-color1);
+        }
+
+        .button.primary-color2 {
+            background-color: var(--primary-color2);
+        }
+
+        .button.primary-color3 {
+            background-color: var(--primary-color3);
+        }
+    </style>
+</head>
+<body>
+    <button class="button primary-color1">Blue</button>
+    <button class="button primary-color2">Green</button>
+    <button class="button primary-color3">Red</button>
+</body>
+</html>
