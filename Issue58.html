@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Navigation Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Styling for the navigation bar */
+        .navbar {
+            background-color: #333;
+            padding: 10px;
+            position: sticky;
+            top: 0; /* Stick to the top of the viewport */
+        }
+
+        /* Styling for navigation links */
+        .navbar a {
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        /* Add some content to demonstrate the sticky effect */
+        .content {
+            padding: 20px;
+        }
+
+        /* Styling for sections */
+        section {
+            margin-bottom: 500px; /* Create space for scrolling */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="#section1">Section 1</a>
+        <a href="#section2">Section 2</a>
+        <a href="#section3">Section 3</a>
+    </div>
+
+    <!-- Content Sections -->
+    <div id="section1" class="content">
+        <h2>Section 1</h2>
+        <p>Content for Section 1...</p>
+    </div>
+
+    <div id="section2" class="content">
+        <h2>Section 2</h2>
+        <p>Content for Section 2...</p>
+    </div>
+
+    <div id="section3" class="content">
+        <h2>Section 3</h2>
+        <p>Content for Section 3...</p>
+    </div>
+
+</body>
+</html>
