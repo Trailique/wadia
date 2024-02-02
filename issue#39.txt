@@ -1,0 +1,8 @@
+1.Semantic Elements:
+    HTML5 introduced a set of new semantic elements that provide better structure and meaning to web page content. Examples include <header>, <nav>, <article>, <section>, <footer>, and <aside>. These elements help both developers and browsers understand the purpose and structure of different parts of a webpage, making it easier to create and maintain code.
+
+2.Canvas and SVG:
+    HTML5 includes new elements for drawing graphics directly in the browser, providing more flexibility and interactivity. The <canvas> element allows for dynamic rendering of 2D shapes and images, while the <svg> (Scalable Vector Graphics) element enables the creation of vector graphics, making it easier to scale and manipulate graphical content on the web.
+
+3.Video and Audio Support:
+    HTML5 introduced native support for embedding audio and video content in web pages without relying on third-party plugins like Adobe Flash. The <audio> and <video> elements allow developers to easily integrate multimedia content into their websites. This native support has improved cross-browser compatibility and reduced the need for external plugins.
