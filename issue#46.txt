@@ -1,0 +1,29 @@
+In CSS, both the #id and .class selectors are used to target and style HTML elements, but they have some key differences:
+
+#id Selector:
+
+The #id selector is used to select a specific HTML element with a unique identifier (id) attribute.
+The id attribute must be unique within the HTML document. It identifies a single, specific element.
+The syntax for the #id selector is #elementId.
+
+#uniqueElement {
+  color: blue;
+}
+<div id="uniqueElement">This element is styled using the #id selector.</div>
+
+class Selector:
+
+The .class selector is used to select and style multiple HTML elements that share the same class attribute.
+Multiple elements in the document can have the same class, allowing you to apply a common style to them.
+The syntax for the .class selector is .className.
+Example:
+
+.commonClass {
+  font-size: 16px;
+}
+
+<p class="commonClass">This paragraph is styled using the .class selector.</p>
+<span class="commonClass">This span is also styled using the .class selector.</span>
+
+Use the #id selector when styling a specific, unique element on the page.
+Use the .class selector when styling multiple elements that share a common class.
