@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Transformation</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        img {
+            display: block;
+            transition: transform 0.3s ease;
+        }
+
+        .rotate {
+            transform: scale(1.5) rotate(45deg);
+        }
+    </style>
+</head>
+<body>
+    <img id="rotating-image" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Transformed Image" onclick="rotateImage()">
+    
+    <script>
+        function rotateImage() {
+            var image = document.getElementById("rotating-image");
+            image.classList.toggle("rotate");
+        }
+    </script>
+</body>
+</html>
+

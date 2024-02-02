@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Specificity </title>
+    <style>
+        p {
+            color: red;
+        }
+        .paragraph {
+            color: blue;
+        }
+        #special-paragraph {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <p style="color: orange;">Inline style</p>
+    <p>Element selector</p>
+    <p class="paragraph">Class selector</p>
+    <p id="special-paragraph">ID selector</p>
+</body>
+</html>
+<!--
+In CSS, specificity is a measurement of relevance based on the type and order of CSS selectors in a document
+Specificity is an algorithm used by browsers to determine the CSS declaration that is the most relevant to an element. 
+-->

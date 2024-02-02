@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design Example</title>
+    <style>
+        /* Media Queries */
+        @media screen and (max-width: 600px) {
+            /* Adjust styles for smaller screens */
+            body {
+                font-size: 14px; /* Decrease font size for smaller screens */
+            }
+        }
+
+        @media screen and (min-width: 601px) and (max-width: 900px) {
+            /* Adjust styles for medium-sized screens */
+            body {
+                font-size: 16px; /* Increase font size for medium-sized screens */
+            }
+        }
+
+        @media screen and (min-width: 901px) {
+            /* Adjust styles for larger screens */
+            body {
+                font-size: 18px; /* Increase font size for larger screens */
+            }
+        }
+
+        /* Fluid Layouts */
+        .container {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        /* Flexible Images and Media */
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Responsive Design Example</h1>
+        <p>
+            This is an example of a responsive design. The font size of this text will adjust based on the screen size of the device you're viewing it on.
+        </p>
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" title="Google">
+        <p>
+            This image will adjust its size to fit the width of the container, ensuring it remains fully visible regardless of the screen size.
+        </p>
+        <a href="https://www.google.com">Visit Google</a>
+    </div>
+</body>
+</html>
