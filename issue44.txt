@@ -1,0 +1,27 @@
+Web accessibility is about designing and developing websites, tools, and technologies that people with disabilities can use, according to the World Wide Web Consortium (W3C).People with disabilities should be able to perceive, understand, navigate, and interact with, and contribute to the web.
+
+Three ways to make your HTML content more accessible are:
+
+1. Add Images with Alt Text:
+A picture may be worth a thousand words, but visual elements like images are an accessibility barrier to blind users and those with low vision.Screen Readers are software programs that read the text on the screen using a synthesizer or Braille display.
+However, neither of these technologies can read images or the text in the images. So, you need to add Alt Text to describe your images to disabled users.Make sure to describe the image as clearly as possible.You can use alt attribute for brief descriptions.
+
+2.Keep Contrast Sensitivity in Mind
+Along with text size, think about color and contrast.People with vision impairments such as retinitis pigmentosa, glaucoma, diabetic retinopathy, and cataract have low color contrast sensitivity.When designing your webpages, make sure to have a high contrast between the foreground and background, such as yellow letters on a black background.Avoid using thin fonts.
+Also, try to avoid using any JavaScript or CSS features that will prevent visually impaired users from increasing the contrast.
+Just like the text size, color contrast is also critical.While black text on a white background has the highest readability, you can also use a combination of black text on a yellow background and yellow text on a blue background.
+
+3.Add Keyboard Navigation
+For blind and visually impaired users, navigation is a challenge.As they can’t use a mouse to browse the site, you have to incorporate keyboard navigation into your website.Blind users will use Braille keyboards to access your site.
+Make sure disabled users can access all interactive elements of your website, including:
+a.URLs.
+b.Anchor text.
+c.Drop-down menus.
+d.Widgets.
+e.Forms.
+f.CTAs.
+g.Dialog boxes.
+Also, make JavaScript widgets accessible with the keyboard.
+Alternatively, you can use HTML links, buttons, and form fields alone to make sure all elements of your website are keyboard-accessible.
+
+
