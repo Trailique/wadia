@@ -1,0 +1,72 @@
+<!--Responsive Design-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+      }
+
+      /* Media Queries for Responsive Styles */
+      @media only screen and (max-width: 768px) {
+        body {
+          font-size: 14px;
+        }
+      }
+
+      /* Flexible Grid Layout using CSS Grid */
+      .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+      }
+
+      /* Responsive Images */
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    </style>
+    <title>Responsive Design Example</title>
+  </head>
+  <body>
+    <!-- Responsive Navigation Bar -->
+    <div class="navbar">
+      <h2>Responsive Navbar</h2>
+    </div>
+
+    <!-- Responsive Content with Flexible Grid and Images -->
+    <div class="container">
+      <div class="section">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbtqfqF8fj_2BiMbmBVupU4dGrJXtP3hPg2ezJ2LS8uZiw3R_Aj5w45AYkjg&s"
+          alt="Responsive Image 1"
+        />
+        <h3>Apple</h3>
+        <p>Information about Apple.</p>
+      </div>
+
+      <div class="section">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbtqfqF8fj_2BiMbmBVupU4dGrJXtP3hPg2ezJ2LS8uZiw3R_Aj5w45AYkjg&s"
+          alt="Responsive Image 2"
+        />
+        <h3>Apple</h3>
+        <p>This is some text in Section 2.</p>
+      </div>
+
+      <div class="section">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbtqfqF8fj_2BiMbmBVupU4dGrJXtP3hPg2ezJ2LS8uZiw3R_Aj5w45AYkjg&s"
+          alt="Responsive Image 3"
+        />
+        <h3>Apple</h3>
+        <p>This is some text in Section 3.</p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+<!--CSS Specificity-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      /* Style Rule 1: Specificity = 1 (one element selector) */
+      p {
+        color: red;
+      }
+
+      /* Style Rule 2: Specificity = 100 (one ID selector) */
+      #specialParagraph {
+        color: blue;
+      }
+
+      /* Style Rule 3: Specificity = 10 (one class selector) */
+      .importantText {
+        color: green;
+      }
+    </style>
+    <title>CSS Specificity Example</title>
+  </head>
+  <body>
+    <p>This is a normal paragraph. Hello everyone!!!</p>
+    <p id="specialParagraph" class="importantText">
+      This is a special paragraph. How are you all??
+    </p>
+    <p id="importantText" class="importantText">
+      This is important text. Everthing fine?!?
+    </p>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+<!--CSS Transfrom-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      /* Image Container Styles */
+      .image-container {
+        width: 300px;
+        margin: 50px auto;
+      }
+
+      /* Image Styles */
+      .transformed-image {
+        width: 100%;
+        display: block;
+        transition: transform 0.3s ease-in-out; /* Smooth transition for the transform property */
+      }
+
+      /* Hover Effect: Scale and Rotate */
+      .image-container:hover .transformed-image {
+        transform: scale(1.2) rotate(45deg); /* Scale by 20% and rotate by 45 degrees on hover */
+      }
+    </style>
+    <title>CSS Transforms Example</title>
+  </head>
+  <body>
+    <!-- Image Container with Transformations on Hover -->
+    <div class="image-container">
+      <img
+        class="transformed-image"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbtqfqF8fj_2BiMbmBVupU4dGrJXtP3hPg2ezJ2LS8uZiw3R_Aj5w45AYkjg&s"
+        alt="Transformed Image"
+      />
+    </div>
+  </body>
+</html>
