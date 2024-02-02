@@ -1,0 +1,56 @@
+<html>
+<!--Issue49 -->
+<head>
+
+    <title>CSS Positioning Example</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            position: relative;
+            width: 100%;
+            height: 400px;
+            background-color: #E7D9E7FA;
+            text-align: center;
+        }
+
+        .absolute-box {
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            width: 200px;
+            height: 100px;
+            background-color: #ffcc00;
+            border: 2px solid #333;
+        }
+
+        .relative-box {
+            position: relative;
+            top: 50px;
+            left: 200px;
+            width: 200px;
+            height: 100px;
+            background-color: #66ccff;
+            border: 2px solid #333;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <p>A relative container.</p>
+        <div class="absolute-box">
+            An absolutely positioned box.
+        </div>
+        <div class="relative-box">
+            A relatively positioned box.
+        </div>
+    </div>
+
+</body>
+</html>
