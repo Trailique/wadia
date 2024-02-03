@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Flexbox</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #b4b4b4;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            height: 100vh; /* 100% of the viewport height */
+            padding: 20px;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: #336699;
+            color: #fff;
+            text-align: center;
+            line-height: 90px;
+            border-radius:25px;
+        }
+    </style>
+</head>
+<body>
+  <h2 align="center">Flexbox Layout</h2>
+    <div class="container">
+        <div class="box">Candies</div>
+        <div class="box">Cookies</div>
+        <div class="box">Cakes</div>
+    </div>
+
+</body>
+</html>
