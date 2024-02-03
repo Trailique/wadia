@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Continuous Rotation Animation</title>
+    <style>
+        /* Define the keyframes for the rotation animation */
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg); /* Start rotation angle */
+            }
+            to {
+                transform: rotate(360deg); /* End rotation angle */
+            }
+        }
+
+        /* Apply the rotation animation to the element */
+        .rotating-element {
+            width: 100px;
+            height: 100px;
+            background-color: #ffcc00;
+            animation: rotate 5s linear infinite; /* Apply the animation to the element */
+            /* Animation name: rotate, Duration: 5 seconds, Timing function: linear, Iteration count: infinite (continuous) */
+        }
+    </style>
+</head>
+<body>
+    <div class="rotating-element"></div>
+</body>
+</html>
