@@ -1,0 +1,49 @@
+The
+<meta> tag in HTML is used to provide metadata about the HTML document. Metadata is data about data, providing
+information about the HTML document itself rather than its content.
+<meta> tags are placed within the
+
+<head> element of an HTML document.
+
+    Here are some common purposes of the
+    <meta> tag:
+
+    Setting Character Encoding: The
+    <meta> tag can specify the character encoding used by the HTML document.
+    This is important for ensuring that special characters and symbols are displayed correctly in the browser.
+
+    Defining Viewport for Responsive Design: In the context of mobile web development, the
+    <meta> tag can define the viewport settings to control how the webpage is displayed on different devices and screen
+    sizes.
+
+    Providing Metadata for Search Engines and Social Media:
+    <meta> tags can include metadata such as description, keywords, author, and other information that helps search
+    engines understand and index the content of the webpage. They are also used for specifying social media metadata
+    like title, description, and image to optimize how the page appears when shared on social media platforms.
+
+    Here's an example of how the
+    <meta> tag is used to specify the character encoding and define the viewport for a webpage:
+
+    html
+
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Example Page</title>
+    </head>
+
+<body>
+    <!-- Content of the webpage goes here -->
+</body>
+
+</html>
+In this example:
+
+<meta charset="UTF-8"> specifies that the character encoding of the document is UTF-8, which supports a wide range of
+characters from various languages and symbols.
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> sets the viewport width to the device width and
+sets the initial zoom level to 1.0, ensuring that the webpage is rendered properly on different devices and screen
+sizes.
