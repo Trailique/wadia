@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--Issue-56-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      p {
+        color: red;
+      }
+      #specialParagraph {
+        color: blue;
+      }
+      .importantText {
+        color: green;
+      }
+    </style>
+    <title>CSS Specificity Example</title>
+  </head>
+  <body>
+    <p>This is a normal paragraph. Hello everyone!!!</p>
+    <p id="specialParagraph" class="importantText">
+      This is a special paragraph. How are you all??
+    </p>
+    <p id="importantText" class="importantText">
+      This is important text. Everthing fine?!?
+    </p>
+  </body>
+</html>

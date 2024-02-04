@@ -1,0 +1,64 @@
+<html>
+<head>
+    <title>Styled Paragraph</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, p {
+            color: blue;
+        }
+        p {
+            background-color: #ffcc00;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        img {
+            display: block;
+            margin: 20px auto;
+        }
+        a {
+            display: block;
+            text-align: center;
+            color: blue;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+
+       
+        @media screen and (max-width: 600px) {
+            .container {
+                max-width: 100%;
+                padding: 10px; 
+            }
+            h1 {
+                font-size: 24px; 
+            }
+            p {
+                font-size: 14px; 
+            }
+            img {
+                max-width: 100%; 
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container"> 
+        <h1>Wikipedia</h1>
+        <p>
+            Wikipedia is a free online encyclopedia that anyone can edit, and millions already have.
+        </p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Wikipedia-logo-v2-en.svg/135px-Wikipedia-logo-v2-en.svg.png" alt="Google logo" title="Google">
+        <a href="https://www.wikipedia.com">Visit Wikipedia.</a>
+    </div>
+</body>
+</html>

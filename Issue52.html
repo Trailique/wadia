@@ -1,0 +1,39 @@
+<html>
+<!--Issue-52 -->
+<head>
+
+    <title>Button Transition Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .button {
+            background-color: #1e80d1;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease; /* Add a transition effect to background-color */
+        }
+
+        .button:hover {
+            background-color: #2600ff; /* Change background color on hover */
+        }
+    </style>
+</head>
+<body>
+
+    <button class="button">Hover me</button>
+
+</body>
+</html>
