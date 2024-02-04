@@ -1,0 +1,15 @@
+HTML Attributes:
+
+Provide examples of three HTML attributes and explain their purposes.
+
+1.src (Source) :The src attribute is used with elements like <img>, <script>, <audio>, and <video> to specify the source of the external file
+eg:<img src="image.jpg" alt="Description of the image">
+In this example, the src attribute specifies the URL or path to the image file "image.jpg" that the <img> element should display.
+
+2.href (Hypertext Reference):The href attribute is used with the <a> (anchor) element to specify the destination of the hyperlink.
+eg:<a href="https://www.example.com">Visit Example Website</a>
+In this example, clicking on the text "Visit Example Website" will navigate the user to the URL specified in the href attribute, which is "https://www.example.com".
+
+3.alt (Alternative Text):The alt attribute is used with the <img> element to provide alternative text for the image. This text is displayed if the image fails to load or for accessibility purposes (screen readers for visually impaired users).
+eg:<img src="profile.jpg" alt="Profile Picture">
+In this example, the alt attribute provides the alternative text "Profile Picture" for the image "profile.jpg". This text is displayed in place of the image if it cannot be loaded or if the user is using a screen reader.

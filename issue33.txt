@@ -1,0 +1,34 @@
+#List and explain commanly used HTML elements
+1.<p>: The
+<p> element is used to define a paragraph in HTML.
+    Browsers typically add some space above and below a paragraph by default to visually separate it from other content
+    on the page.
+    eg:
+<p>This is a paragraph </p>
+
+
+2.<a>: The <a> element, short for anchor, is used to create hyperlinks in HTML.
+        It allows you to link to other web pages, files, locations within the same page, email addresses, and more.
+        eg:<a href="https://www.example.com">Visit Example Website</a>
+
+
+        3.<img>: The <img> element is used to embed images in an HTML document. It is a self-closing tag and does not
+        have a closing tag.
+        The src attribute specifies the URL of the image, and the alt attribute provides alternative text for the image,
+        which is displayed if the image cannot be loaded or by screen readers for accessibility.
+        eg:<img src="image.jpg" alt="A beautiful sunset">
+
+        4.<div>: The <div> element is a generic container used to group together other HTML elements and apply styling
+                or JavaScript functionality to them.
+                It is a block-level element and does not have any semantic meaning on its own.
+                eg:<div>
+                    <p>This is inside a div element.</p>
+                    <img src="image.jpg" alt="An image inside a div">
+                </div>
+
+                5.<form>: The <form> element is used to create HTML forms for user input. It can contain various input
+                        elements like text fields, checkboxes, radio buttons, etc.
+
+                        Eg:<form>
+                            <!-- Form elements go here -->
+                        </form>

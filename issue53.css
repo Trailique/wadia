@@ -1,0 +1,15 @@
+
+@media only screen and (max-width: 600px) {
+    /* CSS rules for screens with a maximum width of 600 pixels */
+    /* You can add your styles here */
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    /* Add more styles as needed */
+}

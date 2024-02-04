@@ -1,0 +1,13 @@
+new features introduced in HTML5.
+Semantic Elements:
+HTML5 introduced new semantic elements that provide better structure and meaning to web documents. Examples include <header>, <nav>, <section>, <article>, <footer>, <aside>, <main>, <figure>, <figcaption>, <time>, <details>, <summary>, etc.
+ These elements help developers create clearer and more accessible markup, making it easier for search engines and assistive technologies to understand the content's structure.
+
+Audio and Video Support:
+HTML5 brought native support for embedding audio and video content directly into web pages without the need for third-party plugins like Flash.
+The <audio> and <video> elements allow developers to embed media files (such as MP3, Ogg, WebM) directly into the page, making it easier to create multimedia-rich experiences while ensuring compatibility across different devices and platforms.
+
+Canvas and SVG Graphics:
+HTML5 introduced the <canvas> element, which provides a drawing surface for dynamic rendering of graphics, charts, animations, and interactive content using JavaScript. 
+It allows developers to create complex visualizations and interactive applications directly within the browser without relying on external plugins.
+ Additionally, HTML5 includes native support for Scalable Vector Graphics (SVG), which enables the creation of resolution-independent graphics and illustrations directly within the HTML document, enhancing the flexibility and performance of web applications.

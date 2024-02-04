@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables Example</title>
+    <style>
+        /* Declare a CSS variable for the primary color */
+        :root {
+            --primary-color: #007bff; /* Define the primary color */
+        }
+
+        /* Use the CSS variable to style elements */
+        .primary-element {
+            color: var(--primary-color); /* Use the primary color variable */
+            background-color: var(--primary-color); /* Use the primary color variable for background */
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="primary-element">
+        This is a primary element using CSS variable for color and background.
+    </div>
+</body>
+</html>

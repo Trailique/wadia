@@ -1,0 +1,15 @@
+In CSS, both the #id and .class selectors are used to target and style HTML elements, but they differ in how they select elements.
+
+1)#id Selector:
+
+The #id selector is used to select an element with a specific id attribute value.
+It is denoted by a hash symbol (#) followed by the id attribute value of the element you want to target.
+IDs must be unique within an HTML document, meaning you should only have one element with a specific ID value.
+Example: #header { color: blue; } would select the element with id="header" and apply the specified CSS style to it.
+
+2).class Selector:
+
+The .class selector is used to select elements that have a specific class attribute value.
+It is denoted by a period (.) followed by the class name you want to target.
+Classes can be applied to multiple elements within an HTML document, allowing for more flexible styling and reusability.
+Example: .button { background-color: green; } would select all elements with class="button" and apply the specified CSS style to them.
