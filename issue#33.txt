@@ -1,0 +1,10 @@
+1.<html>:Represents the root of an HTML document.
+2.<head>:Contains meta-information about the HTML document, such as title, character set, linked stylesheets, and scripts.
+3.<title>:Sets the title of the HTML document, which appears in the browser's title bar or tab.
+4.<body>:Contains the main content of the HTML document, including text, images, links, and other elements.
+5.<h1>, <h2>, ..., <h6>:Define headings of different levels. <h1> is the highest level, and <h6> is the lowest.
+6.<table>, <tr>, <th>, <td>:
+        <table> defines a table,
+        <tr> represents a table row, 
+        <th> represents a table header cell, 
+        <td> represents a table data cell.

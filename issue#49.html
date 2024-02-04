@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>absolute and relative positioning</title>
+    <style>
+
+    .relative-container {
+      position: relative;
+      width: 300px;
+      height: 200px;
+      border: 2px solid #333;
+    }
+
+    .relative-child {
+      position: relative; /* Default value; can be omitted */
+      top: 20px;
+      left: 50px;
+      background-color: lightblue;
+      padding: 10px;
+    }
+
+    .absolute-container {
+      position: relative;
+      width: 300px;
+      height: 200px;
+      border: 2px solid #333;
+    }
+
+    .absolute-child {
+      position: absolute;
+      top: 20px;
+      left: 50px;
+      background-color: lightcoral;
+      padding: 10px;
+    }
+        
+    </style>
+</head>
+<body>
+    <h1>Relative position</h1>
+    <div class="relative-container">
+        <div class="relative-child">
+          This is a relatively positioned element.
+        </div>
+      </div>  
+<br>
+<h1>Absolute Position</h1>
+      <div class="absolute-container">
+        <div class="absolute-child">
+          This is an absolutely positioned element.
+        </div>
+      </div>
+      
+    
+</body>
+</html>
