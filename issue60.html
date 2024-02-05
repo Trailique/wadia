@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Transforms Example</title>
+  <style>
+    .image-container {
+      width: 300px;
+      height: 300px;
+      overflow: hidden;
+    }
+
+    .image-container img {
+      width: 100%;
+      height: auto;
+      transition: transform 0.5s ease; /* Add transition for smoother animation */
+    }
+
+    .image-container:hover img {
+      transform: scale(1.2) rotate(20deg); /* Scale by 20% and rotate by 20 degrees on hover */
+    }
+  </style>
+</head>
+<body>
+  <div class="image-container">
+    <img src="https://via.placeholder.com/300" alt="Sample Image">
+  </div>
+</body>
+</html>
