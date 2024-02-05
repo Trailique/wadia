@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+<html> 
+  
+<head> 
+    <title> 
+           Defining colors as variables in CSS 
+    </title> 
+    <style> 
+        :root { 
+            --primary-color: rgb(15, 157, 88); 
+            --secondary-color: rgb(255, 255, 255); 
+        } 
+  
+        .first { 
+            width: 80%; 
+            padding: 40px 0px; 
+            margin: 10px 0px; 
+            text-align: center; 
+  
+            /* Apply color using CSS var */ 
+            background-color: var(--primary-color); 
+            color: var(--secondary-color); 
+        } 
+  
+        .second { 
+  
+            width: 80%; 
+            padding: 40px 0px; 
+            text-align: center; 
+  
+            /* Apply color using CSS var */ 
+            background-color: var(--primary-color); 
+            color: var(--secondary-color); 
+        } 
+    </style> 
+</head> 
+  
+<body> 
+    <div class="first"> 
+        <h1>Welcome to my Page!</h1> 
+    </div> 
+  
+    <div class="second"> 
+        <h2>Hello! This is Anushka here; a student currently pursuing Master's in Computer Science.I am an aspiring IT professional.</h1> 
+    </div> 
+</body> 
+  
+</html> 
