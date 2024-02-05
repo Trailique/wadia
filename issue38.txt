@@ -1,0 +1,18 @@
+Difference between semantic and non-semantic tags-
+Semantic tags: Semantic tags are HTML tags that have a specific meaning. For example, the <h1> tag is a semantic tag that represents a heading. The <p> tag is another semantic tag that represents a paragraph. Semantic tags are important because they help to make your HTML code more readable and understandable for both humans and machines.The different semantic tags include-
+1.<h1>: Heading
+2.<p>: Paragraph
+3.<img>: Image
+4.<a>: Link
+5.<table>: Table
+6.<ul>: Unordered list
+7.<ol>: Ordered list
+Non-semantic tags: Non-semantic tags are HTML tags that do not have a specific meaning. For example, the <div> tag is a non-semantic tag that can be used to group elements together. The <span> tag is another non-semantic tag that can be used to style text. Non-semantic tags are often used for layout purposes, but they can also be used to add structure to your HTML code.The different non-semantic tags include-
+1.<div>: Container
+2.<span>: Styled text
+3.<br>: Line break
+4.<hr>: Horizontal rule
+5.<input>: Form input
+6.<select>: Form select
+7.<textarea>: Form textarea
+It is generally recommended to use semantic tags whenever possible. This will make your HTML code more readable and understandable for both humans and machines. However, there are times when you may need to use non-semantic tags, such as when you are using them for layout purposes.

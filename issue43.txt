@@ -1,0 +1,34 @@
+Meta tags:
+HTML <meta> tag is used to represent the metadata about the HTML document. It specifies page description, keywords, copyright, language, author of the documents, etc.
+The metadata does not display on the webpage, but it is used by search engines, browsers and other web services which scan the site or webpage to know about the webpage.
+With the help of meta tag, you can experiment and preview that how your webpage will render on the browser.
+The <meta> tag is placed within the <head> tag, and it can be used more than one times in a document.
+
+Syntax:
+<head>
+   <meta attribute-name = "value"/>
+</head>
+
+Uses of meta tags-
+1.Specifying Important Keywords: The meta tag contains important keywords that are present on the web page and is utilized by the web browser to rank the    page according to searches.
+2.Automatic Refresh: A specified time will be mentioned in the meta tag after which the webpage will be automatically refreshed.
+3.Specifying Author of the Webpage: MetaTag allows us to mention the name of the author of the webpage as follows.
+4.Providing a Description of the web page: A brief description of the web page can be included in the Meta tag, which will help the web page rank on the internet.
+
+Example Code:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a sample webpage">
+    <meta name="keywords" content="HTML, CSS, JavaScript, web development">
+    <meta name="author" content="Anushka Majumder">
+    <title>Sample Webpage</title>
+</head>
+<body>
+
+    <!-- Your webpage content goes here -->
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+Responsive web design-
+Creating a responsive design ensures that your website or web application adapts to various screen sizes and devices, providing an optimal viewing and interaction experience for users. 
+
+Any three techniques for responsive design include:
+
+1.Fluid Grid Layouts:
+Use percentage-based widths for containers and elements instead of fixed pixel values.
+Define layouts using relative units, such as percentages or vw (viewport width) and vh (viewport height).
+Example:
+.container {
+  width: 80%;
+  margin: 0 auto; /* Center the container */
+}
+
+.column {
+  width: 50%;
+  float: left; /* Use float or flex for multiple columns */
+}
+
+2.Media Queries:
+
+Use media queries to apply specific CSS styles based on the characteristics of the device, such as screen width, height, or device orientation.
+Breakpoints are defined to target different screen sizes and adjust the layout accordingly.
+Example:
+@media screen and (max-width: 600px) {
+  /* Styles for screens up to 600px wide */
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Styles for screens between 601px and 1024px wide */
+}
+
+3.Leverage conditional loading:
+Despite significant technological advances, some website elements are still not made for mobile users, and even if they are, it is not worth the excess cognitive load. Mobile websites are expected to be simple and clean, and therefore, hiding some elements is not a bad idea.  
+At the same time, we have to ensure that the browser resources and bandwidth are not getting wanted by loading these elements even when they're hidden; hence, the best practice is only to include these elements in certain conditions.
+Again this can be achieved with coding, and designers can make sure of the page performance by communicating the specifications, including when and where some elements should and shouldn't exist.

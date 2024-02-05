@@ -1,0 +1,45 @@
+HTML attributes give additional information about the HTML elements and are always specified in the start tag.Any three HTML attributes along with their purposes are:
+
+1.src attribute :
+Purpose: We use the <img> tag add an image in an HTML page. The src attribute specifies the image path. We can specify the address of the image inside the double quotes.
+
+Example:
+<html>
+<head>
+<title>Rose Flower</title>
+</head>
+<body>
+<img src="https://images.unsplash.com/photo-1586082207282-3dcb61d25ebd?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D.jpg">
+</body>
+</html>
+
+2.HTML width and height Attribute:
+Purpose:This attribute is used to adjust the width and height of an image which we want to embed or add in our webpage.
+
+Example:
+<html>
+<head>
+<title>Rose Flower</title>
+</head>
+<body>
+<img src="https://unsplash.com/photos/pink-and-white-rose-in-bloom-during-daytime-yH9J4n_G5fI.jpg" width="300px" height="100px">
+</body>
+</html>
+
+3.href attribute:
+Purpose:This attribute is used to specify a link to any address. This attribute is used along with the <a> tag. The link put inside the href attribute gets linked to the text displayed inside the<a> tag. On clicking on the text we will be redirected to the link. By default, the link gets opened in the same tag but by using the target attribute and setting its value to “_blank”, we will be redirected to another tab or another window
+
+Example:
+<html>
+<head>
+<title>link Attribute</title>
+</head>
+<body>
+<a href="https://en.wikipedia.org/wiki/Wikipedia:About">
+  Click to open in the same tab
+</a><br>
+<a href="https://en.wikipedia.org/wiki/Wikipedia:About" target="_blank">
+  Click to open in a different tab
+</a>
+</body>
+</html>

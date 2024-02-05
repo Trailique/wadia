@@ -1,0 +1,64 @@
+Css Specificity:
+CSS Specificity is the set of rules applied to the CSS selectors to determine which styles are applied to an element. Every selector has a specificity value. The more specific a CSS selector is, the larger it's the specificity value hence, it will be applied to an element.
+Specificity hierarchy was introduced by W3C(World Wide Web Consortium) and it is the hierarchy of order in which selectors are used. Every selector has some value and due to which the browser decides what rule should be allowed first and what later. For e.g. ID attribute selectors have higher specificity value than the class selectors, therefore styling present in the ID attribute will be applied to the element.Each and every Selector belongs to only one group. 
+Also, the Group 1 has the highest rank or value while the Group 4 has the lowest rank or value. Selectors with the highest value or rank are applied first and selectors with the lower rank have to wait. If the selectors have same value or rank, then the selector which comes last wins.When two or more selectors have equal specificity value, then the latest one considers.Universal selectors (*) and the inherited values have lower specificity, i.e., 0 specificity.
+
+The groups according to W3C are:
+
+Group 1: Inline Style - A style that is directly applied to an element using a style attribute. This category is highest in specificity value hierarchy. For e.g. <p style="color:green;">Lorem Ipsum</p>
+
+Group 2: ID attributes - A style that is applied to an element with a given id. For e.g. #wrapper, #form-collect.
+
+Group 3: class, pseudo-class, attributes - A style that applies to all elements with a given class value. e.g. .bg-yellow, .border-black. Includes pseudo-classes, e.g. :hover, :active, :focus. Also includes additional element attributes, e.g. [type="text"].
+
+Group 4: elements, pseudo-elements - A style that applies to all elements with a given tag name (i.e. type).
+
+Example:
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <style type="text/css">
+        h1 {
+            background-color: red;
+            color: white;
+        }
+ 
+        #second {
+            background-color: black;
+            color: white;
+        }
+ 
+        .third {
+            background-color: pink;
+            color: blue;
+        }
+ 
+        #second1 {
+            color: blue;
+        }
+ 
+        .third1 {
+            color: red;
+        }
+    </style>
+</head>
+ 
+<body>
+    <h1 id="second" class="third">
+        Inline CSS has highest priority.
+    </h1>
+    <h1>
+        ID has the second highest priority.
+    </h1>
+    <h1 class="third">
+        Classes, pseudo-classes and attributes have medium level of specificity.
+    </h1>
+ 
+    <h2 style="color: green;"
+        id="second1" class="third1">
+         Element selectors have lowest priority.
+      </h2>
+</body>
+ 
+</html>
