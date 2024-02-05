@@ -1,0 +1,37 @@
+<html>
+<head>
+  <style>
+    .elem {
+      position: absolute;
+      top: 40px;
+      left: 40px;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 75px;
+      border-color: red blue green orange;
+      transition-property: transform;
+      transition-duration: 1s;
+    }
+
+    .elem:hover {
+      animation-name: rotate;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+    }
+
+    @keyframes rotate {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="elem"></div>
+</body>
+</html>
